@@ -26,5 +26,8 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
     Redirect("https://www.google.co.uk/")
   }
 
+  def help() = TODO
+
+
 
 }
