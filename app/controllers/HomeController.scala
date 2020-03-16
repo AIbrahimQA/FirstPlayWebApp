@@ -12,6 +12,16 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
     Ok("Hello ")
   }
 
+//  def age() = Action { implicit request: Request[AnyContent] =>
+//    Ok(views.html.age))
+//  }
+
+  def hello() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.age("Ahmed", 24))
+  }
+
+
+
 
   def getGreeting() = Action { request =>
     Ok(views.html.index("Hello World! Again "))
