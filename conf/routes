@@ -6,5 +6,6 @@ GET        /google              controllers.HomeController.google()
 GET        /help                controllers.HomeController.help()
 GET         /age               controllers.HomeController.hello()
 
+GET         /calc              controllers.HomeController.calc()
 
 
