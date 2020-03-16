@@ -4,8 +4,9 @@ GET        /getGreeting         controllers.HomeController.getGreeting()
 GET        /getGreeting1        controllers.HomeController.getGreeting1()
 GET        /google              controllers.HomeController.google()
 GET        /help                controllers.HomeController.help()
-GET         /age               controllers.HomeController.hello()
+GET        /age                 controllers.HomeController.hello()
 
-GET         /calc              controllers.HomeController.calc()
+GET        /calc                controllers.HomeController.calc()
+GET        /condition           controllers.HomeController.condition()
 
 

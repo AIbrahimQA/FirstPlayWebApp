@@ -23,6 +23,9 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
   def calc() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.calc(10,10))
   }
+  def condition() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.conditionals(10))
+  }
 
 
   def getGreeting() = Action { request =>
